@@ -1,5 +1,9 @@
 {
   "[json]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.sortJSON": true
+    },
     "editor.formatOnSave": true
-  }
+  },
+  "sortJSON.orderOverride": ["$schema", "extends", "platform"]
 }
