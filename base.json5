@@ -7,4 +7,5 @@
     "workarounds:all",
   ],
   platform: "github",
+  schedule: ["* * * * *"],
 }
