@@ -3,6 +3,7 @@
   "extends": [
     "helpers:disableTypesNodeMajor",
     "npm:unpublishSafe",
+    "replacements:all",
     "workarounds:all"
   ],
   "platform": "github"
