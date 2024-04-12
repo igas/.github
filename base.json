@@ -3,7 +3,7 @@
   "extends": [
     "helpers:disableTypesNodeMajor",
     "npm:unpublishSafe",
-    "workarounds:typesNodeVersioning"
+    "workarounds:all"
   ],
   "platform": "github"
 }
