@@ -8,4 +8,5 @@
   ],
   platform: "github",
   schedule: ["* * * * *"],
+  baseBranches: ["main"],
 }
