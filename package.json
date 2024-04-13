@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "validate": "renovate-config-validator --strict default.json5"
+  },
+  "dependencies": {
+    "renovate": "37.290.1"
+  }
+}
