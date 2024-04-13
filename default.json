@@ -1,6 +1,6 @@
 {
-  $schema: "https://docs.renovatebot.com/renovate-schema.json",
-  extends: [
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
     ":automergeDigest",
     ":automergeRequireAllStatusChecks",
     ":dependencyDashboard",
@@ -13,11 +13,11 @@
     "helpers:disableTypesNodeMajor",
     "npm:unpublishSafe",
     "replacements:all",
-    "workarounds:all",
+    "workarounds:all"
   ],
-  prConcurrentLimit: 1,
-  platform: "github",
-  automergeStrategy: "squash",
-  schedule: ["* * * * *"],
-  baseBranches: ["main"],
+  "prConcurrentLimit": 1,
+  "platform": "github",
+  "automergeStrategy": "squash",
+  "schedule": ["* * * * *"],
+  "baseBranches": ["main"]
 }
