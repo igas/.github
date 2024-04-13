@@ -4,6 +4,7 @@
     ":automergeDigest",
     ":automergeRequireAllStatusChecks",
     ":dependencyDashboard",
+    ":label(dependencies)",
     ":prHourlyLimitNone",
     ":prImmediately",
     ":rebaseStalePrs",
