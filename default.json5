@@ -8,6 +8,7 @@
     ":prHourlyLimitNone",
     ":prImmediately",
     ":rebaseStalePrs",
+    ":timezone(Australia/Sydney)",
     "group:allDigest",
     "helpers:disableTypesNodeMajor",
     "npm:unpublishSafe",
