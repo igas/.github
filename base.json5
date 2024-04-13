@@ -4,6 +4,7 @@
     ":automergeDigest",
     ":automergeRequireAllStatusChecks",
     ":dependencyDashboard",
+    ":prHourlyLimitNone",
     ":rebaseStalePrs",
     "group:allDigest",
     "helpers:disableTypesNodeMajor",
