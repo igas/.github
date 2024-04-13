@@ -3,6 +3,7 @@
   extends: [
     ":automergeDigest",
     ":automergeRequireAllStatusChecks",
+    ":dependencyDashboard",
     "group:allDigest",
     "helpers:disableTypesNodeMajor",
     "npm:unpublishSafe",
