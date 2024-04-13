@@ -4,6 +4,7 @@
     ":automergeDigest",
     ":automergeRequireAllStatusChecks",
     ":dependencyDashboard",
+    ":rebaseStalePrs",
     "group:allDigest",
     "helpers:disableTypesNodeMajor",
     "npm:unpublishSafe",
