@@ -16,6 +16,11 @@
     "replacements:all",
     "workarounds:all"
   ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true,
+    "extends": ["schedule:daily"]
+  },
   "prConcurrentLimit": 1,
   "platform": "github",
   "automergeStrategy": "squash",
