@@ -60,6 +60,7 @@
   "platform": "github",
   "automergeStrategy": "squash",
   "rangeStrategy": "replace",
+  "transitiveRemediation": true,
   "schedule": ["* * * * *"],
   "baseBranches": ["main"],
   "packageRules": [
