@@ -39,6 +39,7 @@
     "group:vite",
     "helpers:pinGitHubActionDigests",
     "npm:unpublishSafe",
+    "regexManagers:dockerfileVersions",
     "regexManagers:githubActionsVersions",
     "replacements:all",
     "workarounds:all"
