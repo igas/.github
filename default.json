@@ -5,6 +5,7 @@
     ":automergeLinters",
     ":automergePatch",
     ":automergeRequireAllStatusChecks",
+    ":automergeTesters",
     ":automergeTypes",
     ":dependencyDashboard",
     ":label(dependencies)",
