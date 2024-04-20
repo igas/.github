@@ -10,6 +10,7 @@
     ":dependencyDashboard",
     ":docker",
     ":ignoreModulesAndTests",
+    ":ignoreUnstable",
     ":label(dependencies)",
     ":pinAllExceptPeerDependencies",
     ":prHourlyLimitNone",
