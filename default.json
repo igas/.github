@@ -20,7 +20,7 @@
     ":separateMultipleMinorReleases",
     ":separatePatchReleases",
     ":timezone(Australia/Sydney)",
-    "docker:pinDigests",
+    ":updateNotScheduled",
     "group:allDigest",
     "group:definitelyTyped",
     "group:githubArtifactActions",
