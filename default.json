@@ -22,6 +22,7 @@
     "group:definitelyTyped",
     "group:linters",
     "npm:unpublishSafe",
+    "npm:unpublishSafe",
     "replacements:all",
     "workarounds:all"
   ],
