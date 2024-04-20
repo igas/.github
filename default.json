@@ -9,6 +9,7 @@
     ":automergeTypes",
     ":dependencyDashboard",
     ":docker",
+    ":ignoreModulesAndTests",
     ":label(dependencies)",
     ":pinAllExceptPeerDependencies",
     ":prHourlyLimitNone",
