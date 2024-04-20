@@ -40,5 +40,12 @@
   "platform": "github",
   "automergeStrategy": "squash",
   "schedule": ["* * * * *"],
-  "baseBranches": ["main"]
+  "baseBranches": ["main"],
+  "packageRules": [
+    {
+      "matchPackageNames": ["@astrojs/check", "@astrojs/ts-plugin"],
+      "automerge": true,
+      "matchUpdateTypes": ["patch", "minor"]
+    }
+  ]
 }
