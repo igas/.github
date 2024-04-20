@@ -2,6 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     ":automergeDigest",
+    ":automergeLinters",
     ":automergePatch",
     ":automergeRequireAllStatusChecks",
     ":automergeTypes",
@@ -16,6 +17,7 @@
     ":timezone(Australia/Sydney)",
     "group:allDigest",
     "group:definitelyTyped",
+    "group:linters",
     "npm:unpublishSafe",
     "replacements:all",
     "workarounds:all"
