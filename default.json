@@ -61,6 +61,7 @@
   "automergeStrategy": "squash",
   "rangeStrategy": "replace",
   "transitiveRemediation": true,
+  "postUpdateOptions": ["npmDedupe", "pnpmDedupe", "yarnDedupeFewer"],
   "schedule": ["* * * * *"],
   "baseBranches": ["main"],
   "packageRules": [
