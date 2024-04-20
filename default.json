@@ -30,6 +30,12 @@
     "automerge": true,
     "extends": ["schedule:daily"]
   },
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "automerge": true,
+    "commitMessagePrefix": "fix(security): Security update",
+    "addLabels": ["security"]
+  },
   "prConcurrentLimit": 1,
   "platform": "github",
   "automergeStrategy": "squash",
