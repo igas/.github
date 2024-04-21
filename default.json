@@ -56,6 +56,12 @@
     "commitMessagePrefix": "fix(security): Security update",
     "addLabels": ["security"]
   },
+  "addLabels": [
+    "datasource:{{datasource}}",
+    "manager:{{manager}}",
+    "type:{{updateType}}",
+    "versioning:{{versioning}}"
+  ],
   "prConcurrentLimit": 1,
   "platform": "github",
   "automergeStrategy": "squash",
