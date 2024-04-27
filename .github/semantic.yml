@@ -1,0 +1,21 @@
+enabled: true
+titleAndCommits: true
+types:
+  - chore
+  - feat
+  - fix
+  - refactor
+  - release
+  - revert
+scopes:
+  - api
+  - ci
+  - core
+  - docs
+  - perf
+  - security
+  - style
+  - test
+  - ui
+allowMergeCommits: false
+allowRevertCommits: false
