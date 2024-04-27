@@ -6,7 +6,8 @@
       "description": "Automerge renovate updates",
       "matchPackageNames": ["renovate"],
       "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true
+      "automerge": true,
+      "extends": ["schedule:weekly"]
     }
   ]
 }
