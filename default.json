@@ -69,12 +69,5 @@
   "transitiveRemediation": true,
   "postUpdateOptions": ["npmDedupe", "pnpmDedupe", "yarnDedupeFewer"],
   "schedule": ["* * * * *"],
-  "baseBranches": ["main"],
-  "packageRules": [
-    {
-      "matchPackageNames": ["@astrojs/check", "@astrojs/ts-plugin"],
-      "automerge": true,
-      "matchUpdateTypes": ["patch", "minor"]
-    }
-  ]
+  "baseBranches": ["main"]
 }
