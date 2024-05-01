@@ -12,7 +12,6 @@
     ":ignoreModulesAndTests",
     ":ignoreUnstable",
     ":label(dependencies)",
-    ":pinAllExceptPeerDependencies",
     ":prHourlyLimitNone",
     ":prImmediately",
     ":rebaseStalePrs",
