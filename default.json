@@ -38,8 +38,8 @@
     "group:vite",
     "helpers:pinGitHubActionDigests",
     "preview:buildkite",
-    "regexManagers:dockerfileVersions",
-    "regexManagers:githubActionsVersions",
+    "customManagers:dockerfileVersions",
+    "customManagers:githubActionsVersions",
     "replacements:all",
     "workarounds:all"
   ],
@@ -69,7 +69,5 @@
   "schedule": ["* * * * *"],
   "baseBranches": ["main"],
   "minimumReleaseAge": "18 hours",
-  "major": {
-    "minimumReleaseAge": "7 days"
-  }
+  "major": { "minimumReleaseAge": "7 days" }
 }
