@@ -37,7 +37,6 @@
     "group:unitTestNonMajor",
     "group:vite",
     "helpers:pinGitHubActionDigests",
-    "npm:unpublishSafe",
     "preview:buildkite",
     "regexManagers:dockerfileVersions",
     "regexManagers:githubActionsVersions",
@@ -68,5 +67,9 @@
   "transitiveRemediation": true,
   "postUpdateOptions": ["npmDedupe", "pnpmDedupe", "yarnDedupeFewer"],
   "schedule": ["* * * * *"],
-  "baseBranches": ["main"]
+  "baseBranches": ["main"],
+  "minimumReleaseAge": "18 hours",
+  "major": {
+    "minimumReleaseAge": "7 days"
+  }
 }
