@@ -3,11 +3,15 @@
   "extends": ["igas/.github"],
   "packageRules": [
     {
+      "matchPackageNames": ["renovate"],
+      "separateMultipleMinor": false,
+      "extends": [":combinePatchMinorReleases", "schedule:daily"]
+    },
+    {
       "description": "Automerge renovate updates",
       "matchPackageNames": ["renovate"],
       "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true,
-      "extends": ["schedule:weekly"]
+      "automerge": true
     }
   ]
 }
