@@ -41,7 +41,8 @@
     "customManagers:dockerfileVersions",
     "customManagers:githubActionsVersions",
     "replacements:all",
-    "workarounds:all"
+    "workarounds:all",
+    "igas/.github:workarounds-babel-plugin-react-compiler"
   ],
   "lockFileMaintenance": {
     "enabled": true,
