@@ -69,5 +69,11 @@
   "schedule": ["* * * * *"],
   "baseBranches": ["main"],
   "minimumReleaseAge": "18 hours",
-  "major": { "minimumReleaseAge": "7 days" }
+  "major": { "minimumReleaseAge": "7 days" },
+  "packageRules": [
+    {
+      "separateMultipleMinor": false,
+      "matchPackageNames": ["aws-cdk", "aws-sdk-js-v3", "lucide-react"]
+    }
+  ]
 }
