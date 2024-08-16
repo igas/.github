@@ -72,11 +72,13 @@
   "major": { "minimumReleaseAge": "7 days" },
   "packageRules": [
     {
-      "extends": ["group:aws-cdkMonorepo"],
+      "extends": ["monorepo:aws-cdk"],
+      "groupName": "aws-cdk monorepo",
       "separateMultipleMinor": false
     },
     {
-      "extends": ["group:aws-sdk-js-v3Monorepo"],
+      "extends": ["monorepo:aws-sdk-js-v3"],
+      "groupName": "aws-sdk-js-v3 monorepo",
       "separateMultipleMinor": false
     },
     {
