@@ -72,8 +72,16 @@
   "major": { "minimumReleaseAge": "7 days" },
   "packageRules": [
     {
-      "separateMultipleMinor": false,
-      "matchPackageNames": ["aws-cdk", "aws-sdk-js-v3", "lucide-react"]
+      "extends": ["group:aws-cdkMonorepo"],
+      "separateMultipleMinor": false
+    },
+    {
+      "extends": ["group:aws-sdk-js-v3Monorepo"],
+      "separateMultipleMinor": false
+    },
+    {
+      "matchPackageNames": ["lucide-react"],
+      "separateMultipleMinor": false
     }
   ]
 }
