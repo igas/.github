@@ -67,7 +67,7 @@
   "rangeStrategy": "replace",
   "postUpdateOptions": ["npmDedupe", "pnpmDedupe", "yarnDedupeFewer"],
   "schedule": ["* * * * *"],
-  "baseBranches": ["main"],
+  "baseBranchPatterns": ["main"],
   "minimumReleaseAge": "18 hours",
   "major": { "minimumReleaseAge": "7 days" },
   "packageRules": [
